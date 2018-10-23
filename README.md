@@ -19,7 +19,7 @@ Going to sign up? Go to [Github](www.github.com)
 
 ---
 ## Repository Setup
-* Creating an SSH key- first you would need to go to your github account and then click on the top right> profile icon> settings
+* Creating an SSH key- **first** you would need to go to your github account and then click on the top right> profile icon> settings
 * On the left of the side bar you would see > SSH and GPG 
 * Click "new SSH key"
 
@@ -33,3 +33,6 @@ Going to sign up? Go to [Github](www.github.com)
 
 ---
 ## Rolling Back Changes
+    *Roll back Changes is like undoing the changes you've made with the power of git 
+    `
+    
