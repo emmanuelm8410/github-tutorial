@@ -13,6 +13,7 @@ _by: Emmanuel Marcano_
 Going to sign up? Go to [Github](www.github.com) 
 * Click on the link 
 * put in your own information, a username (An email would be better for a username) also your email. 
+* It would be best to put in your _HSTAT_ email. 
 * To finish up, make your own password and when you are done with the password then you can click "sign up for github"
 * To go and start off making your SSH key you would need to be signed into github. 
 * Look into the first repository for more information. 
@@ -21,18 +22,31 @@ Going to sign up? Go to [Github](www.github.com)
 ## Repository Setup
 * Creating an SSH key- **first** you would need to go to your github account and then click on the top right> profile icon> settings
 * On the left of the side bar you would see > SSH and GPG 
-* Click "new SSH key"
+* __Click__ "new SSH key"
 
 
 ---
 ## Workflow & Commands
- * `git status` This command tells you where you are in your file or any changes made and tracks it all. 
  * `git init` 
  
+This command can create a new repository 
+
+ * `git status` 
  
+This command tells you where you are in your file or any changes made and tracks it all. 
+ * `git add` 
+  
+ This command adds in all the files into the staging area 
+ * `git add --all` 
+ 
+This command adds in all the changes and even the deleted files 
+ * `git commit` 
+ 
+ This command records changes to the repository 
 
 ---
 ## Rolling Back Changes
-    *Roll back Changes is like undoing the changes you've made with the power of git 
-    `
+* Roll back Changes is like undoing the changes you've made with the power of git 
+    If you'd like to practice, [click this link](https://github.com/emmanuelm8410/rollback-scavenger-hunt)
+* First in these rollback changes you _need_ to type in `git status`. 
     
