@@ -23,14 +23,14 @@ Going to sign up? Go to [Github](www.github.com)
 * Creating an SSH key- **first** you would need to go to your github account and then click on the top right> profile icon> settings
 * On the left of the side bar you would see > SSH and GPG 
 * __Click__ "new SSH key"
+* Open up cloud9, and on your top right then theres a gear icon 
 
 
 ---
 ## Workflow & Commands
  * `git init` 
  
-This command can create a new repository 
-
+This command initializes git in our directory (now it's calleed our repository)
  * `git status` 
  
 This command tells you where you are in your file or any changes made and tracks it all. 
@@ -42,11 +42,13 @@ This command tells you where you are in your file or any changes made and tracks
 This command adds in all the changes and even the deleted files 
  * `git commit` 
  
- This command records changes to the repository. The proper way to write `gti commit` is, `git commit -m`. With the "m" you would be able to write a message after the "-m" so it would look like, `git commmit -m "anything you'd like"`. **Always** use `git add .` before you do a commit. 
+ This command records changes to the repository. The proper way to write `git commit` is, `git commit -m`. With the "m" you would be able to write a message after the "-m" so it would look like, `git commmit -m "anything you'd like"`. **Always** use `git add .` before you do a commit. 
 
 ---
 ## Rolling Back Changes
 * Roll back Changes is like undoing the changes you've made with the power of git 
     If you'd like to practice, [click this link](https://github.com/emmanuelm8410/rollback-scavenger-hunt)
 * First before you start to do rollback changes you would need to fork this repository. So in the top right corner you would see the "fork" button. Press on it and you  would see the whole repository for you. 
+* For these rollback chnages you would need these commands. 
+
     
