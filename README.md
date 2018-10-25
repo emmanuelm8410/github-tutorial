@@ -36,17 +36,17 @@ This command can create a new repository
 This command tells you where you are in your file or any changes made and tracks it all. 
  * `git add` 
   
- This command adds in all the files into the staging area 
+ This command adds in all the files into the staging area.  
  * `git add --all` 
  
 This command adds in all the changes and even the deleted files 
  * `git commit` 
  
- This command records changes to the repository 
+ This command records changes to the repository. The proper way to write `gti commit` is, `git commit -m`. With the "m" you would be able to write a message after the "-m" so it would look like, `git commmit -m "anything you'd like"`. **Always** use `git add .` before you do a commit. 
 
 ---
 ## Rolling Back Changes
 * Roll back Changes is like undoing the changes you've made with the power of git 
     If you'd like to practice, [click this link](https://github.com/emmanuelm8410/rollback-scavenger-hunt)
-* First in these rollback changes you _need_ to type in `git status`. 
+* First before you start to do rollback changes you would need to fork this repository. So in the top right corner you would see the "fork" button. Press on it and you  would see the whole repository for you. 
     
