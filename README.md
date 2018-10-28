@@ -51,4 +51,16 @@ This command adds in all the changes and even the deleted files
 * First before you start to do rollback changes you would need to fork this repository. So in the top right corner you would see the "fork" button. Press on it and you  would see the whole repository for you. 
 * For these rollback chnages you would need these commands. 
 
+Use `git status` so you can see which command to use. 
+  
+ `git reset HEAD <file>`
     
+* This command would allow you to unstage the file.      
+
+`git checkout --<file>` 
+
+* This command would discard changes in the working directory. 
+
+`git reset HEAD <file>` 
+
+* This command is used to unstage the file. 
